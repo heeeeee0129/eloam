@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import image from "/image.png";
+import image from "/assets/image.png";
 const MainProductContainer = styled.div`
   position: absolute;
   top: 200vh;

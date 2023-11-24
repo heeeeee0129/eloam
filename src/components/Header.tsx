@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { BiMenuAltRight } from "react-icons/bi";
 import { RiCloseLine } from "react-icons/ri";
 import styled from "styled-components";
-import Logo from "/eloam.svg";
+import Logo from "/assets/eloam.svg";
 
 const HeaderContainer = styled.div`
   position: fixed;

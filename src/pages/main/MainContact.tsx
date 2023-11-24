@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import contact from "/contact.png";
+import contact from "/assets/contact.png";
 
 const MainContactContainer = styled.div`
   position: absolute;
