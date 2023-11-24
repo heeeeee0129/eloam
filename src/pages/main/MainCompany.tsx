@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import product from "../../assets/product.png";
+import product from "/product.png";
 
 const MainCompanyContainer = styled.div`
   position: absolute;
@@ -11,13 +11,6 @@ const MainCompanyContainer = styled.div`
   background-repeat: no-repeat;
   background: white;
 `;
-// const Container = styled.div`
-//   position: relative;
-//   padding: 20px 40px;
-
-//   width: 100%;
-//   height: 100%;
-// `;
 
 const TitleContainer = styled.h2`
   position: absolute;
@@ -58,9 +51,7 @@ const DescriptionContainer = styled.p`
 const MainCompany: React.FC = () => {
   return (
     <MainCompanyContainer>
-      {/* <Container> */}
       <TitleContainer>COMPANY</TitleContainer>
-
       <ImageContainer>
         <img src={product} alt="Product" />
       </ImageContainer>
@@ -76,7 +67,6 @@ const MainCompany: React.FC = () => {
         제공함으로써 고객의 경쟁력 제고에 기여합니다.차별화된 고객가치 발굴과
         제공을 통해 Business Solution의 미래를 만들어 가고 있습니다.
       </DescriptionContainer>
-      {/* </Container> */}
     </MainCompanyContainer>
   );
 };

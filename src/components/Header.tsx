@@ -2,10 +2,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { BiMenuAltRight } from "react-icons/bi";
-
 import { RiCloseLine } from "react-icons/ri";
 import styled from "styled-components";
-import Logo from "../assets/eLoam.svg";
+import Logo from "/eloam.svg";
 
 const HeaderContainer = styled.div`
   position: fixed;
@@ -24,8 +23,8 @@ const LogoContainer = styled(Link)`
   text-decoration: none;
   color: black;
   img {
-    width: 40px; 
-    height: auto; 
+    width: 40px;
+    height: auto;
   }
 `;
 const NavItemContainer = styled.div`
