@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import image from "/assets/image.png";
 const MainProductContainer = styled.div`
   position: absolute;
   top: 200vh;
@@ -41,7 +40,7 @@ const MainProduct: React.FC = () => {
     <MainProductContainer>
       <TitleContainer>PRODUCT</TitleContainer>
       <ImageContainer>
-        <img src={image} alt="image" />
+        <img src={"/assets/image.png"} alt="image" />
       </ImageContainer>
     </MainProductContainer>
   );

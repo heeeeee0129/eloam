@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { BiMenuAltRight } from "react-icons/bi";
 import { RiCloseLine } from "react-icons/ri";
 import styled from "styled-components";
-import Logo from "/assets/eloam.svg";
 
 const HeaderContainer = styled.div`
   position: fixed;
@@ -85,7 +84,7 @@ const Header: React.FC = () => {
   return (
     <HeaderContainer>
       <LogoContainer to="/">
-        <img src={Logo} alt="Logo" />
+        <img src={"/assets/eloam.svg"} alt="Logo" />
       </LogoContainer>
       {isNavOpen ? (
         <CloseIcon size={24} onClick={toggleNav} />
@@ -106,7 +105,6 @@ const Header: React.FC = () => {
           <NavItem to="/guide">Guide</NavItem>
           <NavItem to="/materials">Materials</NavItem>
           <NavItem to="/product">Product</NavItem>
-          {/* <NavItem to="/">Main</NavItem> */}
         </NavItemContainer>
 
         <NavItemContainer>

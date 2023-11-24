@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import contact from "/assets/contact.png";
 
 const MainContactContainer = styled.div`
   position: absolute;
@@ -41,7 +40,7 @@ const MainContact: React.FC = () => {
     <MainContactContainer>
       <TitleContainer>CONTACT</TitleContainer>
       <ImageContainer>
-        <img src={contact} alt="image" />
+        <img src={"/assets/contact.png"} alt="image" />
       </ImageContainer>
     </MainContactContainer>
   );

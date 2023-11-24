@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import backgroundImage from "/assets/background.png";
 
 const MainDescriptionContainer = styled.div`
   position: absolute;
@@ -9,7 +8,7 @@ const MainDescriptionContainer = styled.div`
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background: url(${backgroundImage}) center/cover;
+  background: url(${"/assets/background.png"}) center/cover;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
