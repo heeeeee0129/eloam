@@ -18,11 +18,11 @@ const HeaderContainer = styled.div`
 `;
 
 const LogoContainer = styled(Link)`
-  margin: 15px;
+  margin: 20px;
   text-decoration: none;
   color: black;
   img {
-    width: 40px;
+    width: 60px;
     height: auto;
   }
 `;
@@ -35,8 +35,8 @@ const NavItemContainer = styled.div`
 
 const CategoryTitle = styled.h1`
   margin-bottom: 0px;
-  padding: 2px;
-  font-size: 9px;
+  padding: 3px;
+  font-size: 15px;
   align-self: flex-end;
 `;
 
@@ -44,15 +44,15 @@ const Nav = styled.nav<{ isOpen: boolean }>`
   display: ${(props) => (props.isOpen ? "flex" : "none")};
   flex-direction: column;
   position: absolute;
-  right: 30px;
-  top: 11px;
+  right: 35px;
+  top: 20px;
   z-index: 1;
 `;
 
 const NavItem = styled(Link)`
-  padding: 0.2rem;
+  padding: 0.3rem;
   text-decoration: none;
-  font-size: 5px;
+  font-size: 10px;
   color: black;
   align-self: flex-end;
   &:hover {
@@ -62,16 +62,16 @@ const NavItem = styled(Link)`
 
 const MenuIcon = styled(BiMenuAltRight)`
   cursor: pointer;
-  width: 13px;
-  height: 13px;
-  margin: 15px;
+  width: 24px;
+  height: 24px;
+  margin: 20px;
 `;
 
 const CloseIcon = styled(RiCloseLine)`
   cursor: pointer;
-  width: 13px;
-  height: 13px;
-  margin: 15px;
+  width: 24px;
+  height: 24px;
+  margin: 20px;
 `;
 
 const Header: React.FC = () => {
