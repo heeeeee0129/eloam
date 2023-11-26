@@ -41,7 +41,7 @@ const ImageContainer = styled.div`
 const DescriptionContainer = styled.p`
   position: absolute;
   bottom: 20px;
-  right: 60px;
+  right: 80px;
   width: 30%;
   padding: 20px;
   font-size: 15px;
