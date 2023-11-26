@@ -43,6 +43,7 @@ const DescriptionContainer = styled.p`
   bottom: 20px;
   right: 80px;
   width: 30%;
+  max-height: 50vh;
   padding: 20px;
   font-size: 15px;
 `;
