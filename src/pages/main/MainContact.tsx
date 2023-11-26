@@ -15,7 +15,7 @@ const MainContactContainer = styled.div`
   justify-content: center;
 `;
 const TitleContainer = styled.h2`
-  font-size: 24px;
+  font-size: 40px;
   position: relative;
   &:after {
     content: "";

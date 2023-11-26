@@ -17,9 +17,10 @@ const MainDescriptionContainer = styled.div`
 
 const TextContainer = styled.div`
   max-width: 400px;
-  padding: 35px;
+  padding: 70px;
+  font-size: 30px;
   color: white;
-  line-height: 1.5;
+  line-height: 2;
 `;
 
 const MainDescription: React.FC = () => {

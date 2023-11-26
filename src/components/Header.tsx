@@ -44,8 +44,8 @@ const Nav = styled.nav<{ isOpen: boolean }>`
   display: ${(props) => (props.isOpen ? "flex" : "none")};
   flex-direction: column;
   position: absolute;
-  right: 60px;
-  top: 30px;
+  right: 80px;
+  top: 25px;
   z-index: 1;
 `;
 

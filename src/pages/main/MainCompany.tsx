@@ -13,9 +13,9 @@ const MainCompanyContainer = styled.div`
 
 const TitleContainer = styled.h2`
   position: absolute;
-  top: 50px;
-  right: 40px;
-  font-size: 24px;
+  top: 100px;
+  right: 80px;
+  font-size: 40px;
   &:after {
     content: "";
     position: absolute;
@@ -29,8 +29,8 @@ const TitleContainer = styled.h2`
 
 const ImageContainer = styled.div`
   position: absolute;
-  bottom: 20px;
-  left: 40px;
+  bottom: 40px;
+  left: 80px;
   width: 50%;
   img {
     width: 100%;
@@ -40,11 +40,11 @@ const ImageContainer = styled.div`
 
 const DescriptionContainer = styled.p`
   position: absolute;
-  bottom: 10px;
-  right: 30px;
+  bottom: 20px;
+  right: 60px;
   width: 30%;
-  padding: 10px;
-  font-size: 5px;
+  padding: 20px;
+  font-size: 15px;
 `;
 
 const MainCompany: React.FC = () => {
