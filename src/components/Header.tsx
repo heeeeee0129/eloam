@@ -50,7 +50,7 @@ const Nav = styled.nav<{ isOpen: boolean }>`
 `;
 
 const NavItem = styled(Link)`
-  padding: 0.3rem;
+  padding: 0.5rem;
   text-decoration: none;
   font-size: 15px;
   color: black;
