@@ -30,6 +30,10 @@ const TitleContainer = styled.h2`
 
 const ImageContainer = styled.div`
   width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   img {
     width: auto;
     height: 100px;
