@@ -29,11 +29,11 @@ const TitleContainer = styled.h2`
 `;
 
 const ImageContainer = styled.div`
-  width: 40%;
+  width: 70%;
   img {
     width: auto;
     height: 100px;
-    padding: 30px;
+    padding: 0px 80px;
   }
 `;
 const MainContact: React.FC = () => {
