@@ -37,7 +37,7 @@ const ImageContainer = styled.div`
   img {
     width: auto;
     height: 100px;
-    padding: 0px 120px;
+    padding: 50px 120px;
   }
 `;
 const MainContact: React.FC = () => {
