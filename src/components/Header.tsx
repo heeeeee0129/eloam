@@ -110,7 +110,7 @@ const Header: React.FC = () => {
         <NavItemContainer>
           <CategoryTitle>Contact Us</CategoryTitle>
           <NavItem to="/contact">Contact</NavItem>
-          <NavItem to="/faq">FQA</NavItem>
+          <NavItem to="/faq">FAQ</NavItem>
         </NavItemContainer>
       </Nav>
     </HeaderContainer>
