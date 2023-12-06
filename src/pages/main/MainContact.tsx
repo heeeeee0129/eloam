@@ -31,8 +31,9 @@ const TitleContainer = styled.h2`
 const ImageContainer = styled.div`
   width: 40%;
   img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100px;
+    padding: 30px;
   }
 `;
 const MainContact: React.FC = () => {
@@ -40,6 +41,8 @@ const MainContact: React.FC = () => {
     <MainContactContainer>
       <TitleContainer>CONTACT</TitleContainer>
       <ImageContainer>
+        <img src={"/assets/instagram.png"} alt="image" />
+        <img src={"/assets/youtube.png"} alt="image" />
         <img src={"/assets/contact.png"} alt="image" />
       </ImageContainer>
     </MainContactContainer>
