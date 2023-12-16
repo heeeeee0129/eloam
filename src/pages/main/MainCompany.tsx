@@ -53,7 +53,7 @@ const MainCompany: React.FC = () => {
     <MainCompanyContainer>
       <TitleContainer>COMPANY</TitleContainer>
       <ImageContainer>
-        <img src={"/assets/product.png"} alt="Product" />
+        <img src={"/assets/productImage.png"} alt="Product" />
       </ImageContainer>
       <DescriptionContainer>
         X인터내셔널은 1953년 '락희산업주식회사'로 설립된 이래 변화와 성장을

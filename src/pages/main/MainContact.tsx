@@ -47,7 +47,7 @@ const MainContact: React.FC = () => {
       <ImageContainer>
         <img src={"/assets/instagram.png"} alt="image" />
         <img src={"/assets/youtube.png"} alt="image" />
-        <img src={"/assets/contact.png"} alt="image" />
+        <img src={"/assets/faq.png"} alt="image" />
       </ImageContainer>
     </MainContactContainer>
   );
